@@ -1,0 +1,11 @@
+install twilio api
+install ngrok or anykind of domain thingy
+
+Set up a domian to explose the server to the public internet
+Log into twilio
+  Buy a number
+  Connect the domain to the number
+open ngrok or anykind of domain thingy
+  command on ngrok website
+run the flask server
+
