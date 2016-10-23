@@ -8,5 +8,6 @@ Log into twilio
 open ngrok or anykind of domain thingy
   command on ngrok website
   everytime ngrok restarts the domain changes so you will have to replace the connection in twilio
+  change port if have to
 run the flask server
 
