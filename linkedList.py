@@ -8,7 +8,7 @@ class Node:
 
 class ListOfNumbers:
     
-    def __init__(self, root):
+    def __init__(self):
         self.root = None
     
     def add(self, phoneNum, msg, timeToText):
@@ -37,10 +37,17 @@ class ListOfNumbers:
             curNode = curNode.next
         return -1
 
+    def removeFirst(self):
+	self.root = self.root.next
+	return
+
+    def getFirst(self):
+	return self.root
+
     def printList(self):
         curNode = self.root
         print("Now Printing")
         while(curNode != None):
-            print("%d phoneNum  %d time" % (curNode.phoneNum, curNode.timeToText))
+            print("%s phoneNum  %s time %s message" % (str(curNode.phoneNum), str(curNode.timeToText), str(curNode.msg)))
             curNode = curNode.next
         print("")
